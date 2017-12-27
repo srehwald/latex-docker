@@ -1,4 +1,4 @@
-## A typical Makefile for compiling latex sources using a blang/latex docker container
+## A typical Makefile for compiling latex sources using a srehwald/latex docker container
 
 ifndef PDFVIEWER
 	PDFVIEWER=mupdf
