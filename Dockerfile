@@ -1,10 +1,10 @@
-FROM ubuntu:xenial
-MAINTAINER Benedikt Lang <mail@blang.io>
+FROM ubuntu:latest
+
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update -q && apt-get install -qy \
     texlive-full \
-    python-pygments gnuplot \
+    biber \
     make git \
     && rm -rf /var/lib/apt/lists/*
 

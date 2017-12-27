@@ -3,7 +3,7 @@ Latex docker container
 
 This container helps compiling latex sources without the need to install all latex packages on your system.
 
-Check out my [blog post](https://www.blang.io/posts/2015-04_docker-tooling-latex/).
+Check out the [blog post](https://www.blang.io/posts/2015-04_docker-tooling-latex/) of the original maintainer.
 
 Setup
 -----
@@ -12,13 +12,13 @@ First, add your local user to docker group:
 sudo usermod -aG docker YOURUSERNAME
 ```
 
-Pull image ([from Hub](https://registry.hub.docker.com/u/blang/latex)):
+Pull image ([from Hub](https://registry.hub.docker.com/u/srehwald/latex)):
 ```bash
-docker pull blang/latex
+docker pull srehwald/latex
 ```
 or build:
 ```bash
-docker build -t blang/latex .
+docker build -t srehwald/latex .
 
 ```
 
